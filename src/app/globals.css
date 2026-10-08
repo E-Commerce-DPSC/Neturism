@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --color-void: #000000;
+  --color-charcoal-1: #111111;
+  --color-charcoal-2: #181818;
+  --color-charcoal-3: #222222;
+  --color-line: #333333;
+  --color-gray-mid: #888888;
+  --color-gray-light: #AAAAAA;
+  --color-error: #FFB4AB;
+  --color-pure-white: #FFFFFF;
+
+  --font-headline: var(--font-space-grotesk), sans-serif;
+  --font-body: var(--font-geist-sans), sans-serif;
+  --font-label: var(--font-space-mono), monospace;
+}
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+html, body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: var(--font-geist-sans), sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888888;
+}
+
+/* Typography shortcuts */
+.font-headline {
+  font-family: var(--font-space-grotesk), sans-serif;
+}
+
+.font-label {
+  font-family: var(--font-space-mono), monospace;
+}
+
+.font-body {
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+/* Brutalist Offset Shadows (No blur) */
+.shadow-brutal {
+  box-shadow: 4px 4px 0px #FFFFFF;
+}
+
+.shadow-brutal-sm {
+  box-shadow: 2px 2px 0px #FFFFFF;
+}
+
+.shadow-brutal-dark {
+  box-shadow: 4px 4px 0px #222222;
+}
+
+.shadow-brutal-line {
+  box-shadow: 3px 3px 0px #333333;
+}

@@ -1,0 +1,28 @@
+<svg width="600" height="750" viewBox="0 0 600 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="750" fill="#0C0C0C"/>
+  <rect x="10" y="10" width="580" height="730" stroke="#222222" stroke-width="1"/>
+  
+  <!-- Moody Grayscale Lighting -->
+  <circle cx="300" cy="380" r="280" fill="#1C1C1C" opacity="0.6"/>
+
+  <!-- Arm Profile Silhouette -->
+  <path d="M50,180 Q220,320 300,500 Q360,620 440,750 L0,750 L0,180 Z" fill="#181818"/>
+  <path d="M120,240 Q250,370 340,540 Q390,640 450,750" stroke="#333333" stroke-width="50" stroke-linecap="round"/>
+
+  <!-- Heavy Bracelet on Wrist -->
+  <path d="M220,440 C260,480 320,530 380,560" stroke="#666666" stroke-width="36" stroke-linecap="square"/>
+  <path d="M220,440 C260,480 320,530 380,560" stroke="#CCCCCC" stroke-width="24" stroke-linecap="square" stroke-dasharray="24 16"/>
+  <path d="M220,440 C260,480 320,530 380,560" stroke="#FFFFFF" stroke-width="6" stroke-linecap="square" stroke-dasharray="10 30"/>
+
+  <polygon points="270,470 250,495 285,500" fill="#FFFFFF"/>
+  <polygon points="325,515 305,540 340,540" fill="#FFFFFF"/>
+
+  <!-- Dark Vignette Gradient -->
+  <rect width="600" height="750" fill="url(#bottomGrad)"/>
+  <defs>
+    <linearGradient id="bottomGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+</svg>

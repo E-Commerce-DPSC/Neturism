@@ -1,0 +1,46 @@
+<svg width="600" height="750" viewBox="0 0 600 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="750" fill="#0C0C0C"/>
+  <rect x="10" y="10" width="580" height="730" stroke="#222222" stroke-width="1"/>
+  
+  <!-- Moody Portrait Silhouette -->
+  <!-- Head & Hair -->
+  <path d="M220,160 C220,90 380,90 380,160 C380,210 370,250 360,280 L240,280 C230,250 220,210 220,160 Z" fill="#1C1C1C"/>
+  <!-- Face Contour -->
+  <path d="M250,220 C250,300 350,300 350,220 Z" fill="#2E2E2E"/>
+  <line x1="280" y1="230" x2="295" y2="230" stroke="#111111" stroke-width="2"/>
+  <line x1="305" y1="230" x2="320" y2="230" stroke="#111111" stroke-width="2"/>
+  <polygon points="300,240 295,255 305,255" fill="#1A1A1A"/>
+  <line x1="290" y1="270" x2="310" y2="270" stroke="#111111" stroke-width="2"/>
+
+  <!-- Neck & Shoulders -->
+  <path d="M260,280 L260,350 L140,430 L80,750 L520,750 L460,430 L340,350 L340,280 Z" fill="#151515"/>
+
+  <!-- Layered Chunky Chains -->
+  <!-- Layer 1: Choker Chain -->
+  <path d="M265,340 C280,360 320,360 335,340" stroke="#CCCCCC" stroke-width="14" stroke-linecap="square" stroke-dasharray="10 6"/>
+  <path d="M265,340 C280,360 320,360 335,340" stroke="#FFFFFF" stroke-width="4" stroke-linecap="square" stroke-dasharray="4 12"/>
+
+  <!-- Layer 2: Medium Heavy Link -->
+  <path d="M250,370 C275,440 325,440 350,370" stroke="#777777" stroke-width="20" stroke-linecap="square"/>
+  <path d="M250,370 C275,440 325,440 350,370" stroke="#DDDDDD" stroke-width="12" stroke-linecap="square" stroke-dasharray="14 10"/>
+
+  <!-- Layer 3: Long Hanging Chain with Cross Pendant -->
+  <path d="M235,400 C270,540 330,540 365,400" stroke="#555555" stroke-width="16" stroke-linecap="square"/>
+  <path d="M235,400 C270,540 330,540 365,400" stroke="#FFFFFF" stroke-width="6" stroke-linecap="square" stroke-dasharray="10 16"/>
+
+  <!-- Pendant at center chest -->
+  <g transform="translate(300, 520)">
+    <rect x="-4" y="0" width="8" height="50" fill="#FFFFFF"/>
+    <rect x="-18" y="14" width="36" height="8" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+
+  <!-- Dark Vignette Gradient -->
+  <rect width="600" height="750" fill="url(#bottomGrad3)"/>
+  <defs>
+    <linearGradient id="bottomGrad3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+</svg>

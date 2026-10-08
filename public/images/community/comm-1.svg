@@ -1,0 +1,10 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#0A0A0A"/>
+  <rect x="5" y="5" width="390" height="390" stroke="#1F1F1F" stroke-width="1"/>
+  <!-- Street Photography Style: Arm with Chain -->
+  <path d="M-20,100 Q150,220 220,380 L0,400 Z" fill="#222222"/>
+  <path d="M120,240 C160,280 200,320 250,350" stroke="#777777" stroke-width="24" stroke-linecap="square"/>
+  <path d="M120,240 C160,280 200,320 250,350" stroke="#E5E5E5" stroke-width="14" stroke-linecap="square" stroke-dasharray="16 10"/>
+  <polygon points="160,265 145,285 170,290" fill="#FFFFFF"/>
+  <polygon points="205,305 190,325 215,330" fill="#FFFFFF"/>
+</svg>

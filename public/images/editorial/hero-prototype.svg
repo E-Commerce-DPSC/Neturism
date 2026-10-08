@@ -1,0 +1,47 @@
+<svg width="600" height="750" viewBox="0 0 600 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark Grayscale Moody Background -->
+  <rect width="600" height="750" fill="#0A0A0A"/>
+  <rect x="15" y="15" width="570" height="720" stroke="#222222" stroke-width="1"/>
+
+  <!-- Contrast Shadows & Lighting Gradient -->
+  <radialGradient id="wristGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#262626" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#050505" stop-opacity="1"/>
+  </radialGradient>
+  <rect x="20" y="20" width="560" height="710" fill="url(#wristGlow)"/>
+
+  <!-- Dramatic Arm & Hand Silhouette (Grayscale street photography feel) -->
+  <path d="M-50,150 Q180,300 280,480 Q320,560 380,640 Q440,700 520,780 L620,780 L620,150 Z" fill="#1C1C1C"/>
+  <path d="M-20,180 Q200,320 290,490 Q330,570 390,640 Q430,690 480,740" stroke="#383838" stroke-width="40" stroke-linecap="round"/>
+
+  <!-- Hand Contours & Skin Shadowing -->
+  <path d="M340,510 C370,550 420,600 460,650 C490,690 470,720 440,700 C410,680 370,620 330,570 Z" fill="#2E2E2E"/>
+  <path d="M310,480 C350,530 400,600 420,660 C400,670 370,640 330,580 Z" fill="#3B3B3B"/>
+
+  <!-- Black Cord Layering Under Chain -->
+  <path d="M180,390 C220,430 260,470 310,510" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+  <path d="M190,380 C230,420 270,460 320,500" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Massive Heavy Link Chain Bracelet (Chrome Highlight) -->
+  <g id="heavyChain">
+    <!-- Links Layer -->
+    <path d="M170,410 C210,450 260,490 320,530" stroke="#777777" stroke-width="32" stroke-linecap="square"/>
+    <path d="M170,410 C210,450 260,490 320,530" stroke="#CCCCCC" stroke-width="22" stroke-linecap="square" stroke-dasharray="24 14"/>
+    <path d="M170,410 C210,450 260,490 320,530" stroke="#FFFFFF" stroke-width="8" stroke-linecap="square" stroke-dasharray="10 28"/>
+
+    <!-- Barbed links & spikes -->
+    <polygon points="210,440 190,460 220,465" fill="#FFFFFF"/>
+    <polygon points="260,480 240,505 270,505" fill="#FFFFFF"/>
+    <polygon points="295,510 320,500 315,530" fill="#FFFFFF"/>
+
+    <!-- T-Bar Clasp Closure -->
+    <rect x="295" y="475" width="45" height="12" rx="0" transform="rotate(35 295 475)" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+    <circle cx="310" cy="495" r="14" fill="none" stroke="#FFFFFF" stroke-width="5"/>
+  </g>
+
+  <!-- Editorial Grid & Typography Overlays -->
+  <line x1="30" y1="50" x2="570" y2="50" stroke="#222222" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="30" y1="700" x2="570" y2="700" stroke="#222222" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="35" y="40" fill="#888888" font-family="monospace" font-size="11" letter-spacing="2">ART. N-001 // PROTOTYPE SPEC</text>
+  <text x="470" y="40" fill="#AAAAAA" font-family="monospace" font-size="11" letter-spacing="1">[FIG. 01]</text>
+</svg>

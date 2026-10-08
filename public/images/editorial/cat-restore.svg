@@ -1,0 +1,46 @@
+<svg width="600" height="750" viewBox="0 0 600 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="750" fill="#0C0C0C"/>
+  <rect x="10" y="10" width="580" height="730" stroke="#222222" stroke-width="1"/>
+  
+  <!-- Packaging Flat Lay View -->
+  <!-- Dark Leatherette Tray/Box -->
+  <rect x="60" y="100" width="480" height="480" fill="#141414" stroke="#2D2D2D" stroke-width="2"/>
+  <rect x="75" y="115" width="450" height="450" fill="#0E0E0E" stroke="#1F1F1F" stroke-width="1"/>
+
+  <!-- Left: Folded Microfiber Care Cloth -->
+  <rect x="95" y="145" width="160" height="180" fill="#202020" stroke="#333333" stroke-width="1"/>
+  <line x1="95" y1="205" x2="255" y2="205" stroke="#161616" stroke-width="2"/>
+  <line x1="95" y1="265" x2="255" y2="265" stroke="#161616" stroke-width="2"/>
+
+  <!-- Dropper Bottle Solution -->
+  <g transform="translate(290, 140)">
+    <rect x="0" y="40" width="45" height="90" fill="#181818" stroke="#FFFFFF" stroke-width="1.5"/>
+    <rect x="8" y="25" width="29" height="15" fill="#333333"/>
+    <rect x="15" y="10" width="15" height="15" fill="#FFFFFF"/>
+    <text x="7" y="90" fill="#888888" font-family="monospace" font-size="8">NETURISM</text>
+  </g>
+
+  <!-- Right: Archival Certificate Card -->
+  <rect x="365" y="135" width="135" height="90" fill="#D8D8D8" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="390" y="160" fill="#000000" font-family="sans-serif" font-weight="bold" font-size="9">NETURISM</text>
+  <line x1="380" y1="175" x2="480" y2="175" stroke="#888888" stroke-width="1"/>
+  <line x1="380" y1="190" x2="460" y2="190" stroke="#AAAAAA" stroke-width="1"/>
+
+  <!-- Leather Pouch with Tie Cord in Bottom Area -->
+  <g transform="translate(180, 360)">
+    <rect x="0" y="0" width="220" height="160" fill="#1C1C1C" stroke="#333333" stroke-width="2"/>
+    <line x1="110" y1="0" x2="110" y2="160" stroke="#000000" stroke-width="3"/>
+    <!-- Wrap tie cord -->
+    <path d="M-40,80 Q110,95 260,70" stroke="#777777" stroke-width="4"/>
+    <path d="M260,70 Q300,100 240,130" stroke="#777777" stroke-width="3"/>
+  </g>
+
+  <!-- Dark Vignette Gradient -->
+  <rect width="600" height="750" fill="url(#bottomGrad4)"/>
+  <defs>
+    <linearGradient id="bottomGrad4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+</svg>
